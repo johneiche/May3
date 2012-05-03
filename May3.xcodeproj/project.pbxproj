@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE53DF3A1552E8F500D7DA91 /* musette.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BE53DF391552E8F500D7DA91 /* musette.mp3 */; };
+		BE959AB91552D09C00CC995A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE959AB81552D09C00CC995A /* UIKit.framework */; };
+		BE959ABB1552D09C00CC995A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE959ABA1552D09C00CC995A /* Foundation.framework */; };
+		BE959ABD1552D09C00CC995A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE959ABC1552D09C00CC995A /* CoreGraphics.framework */; };
+		BE959AC31552D09C00CC995A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE959AC11552D09C00CC995A /* InfoPlist.strings */; };
+		BE959AC51552D09C00CC995A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE959AC41552D09C00CC995A /* main.m */; };
+		BE959AC91552D09D00CC995A /* May3AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE959AC81552D09D00CC995A /* May3AppDelegate.m */; };
+		BE959ACC1552D09D00CC995A /* May3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE959ACB1552D09D00CC995A /* May3ViewController.m */; };
+		BE959AD61552D0EA00CC995A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE959AD51552D0E900CC995A /* AVFoundation.framework */; };
+		BE959AD91552D4C500CC995A /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = BE959AD81552D4C500CC995A /* View.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE53DF391552E8F500D7DA91 /* musette.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = musette.mp3; sourceTree = "<group>"; };
+		BE959AB41552D09C00CC995A /* May3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = May3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE959AB81552D09C00CC995A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BE959ABA1552D09C00CC995A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BE959ABC1552D09C00CC995A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BE959AC01552D09C00CC995A /* May3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "May3-Info.plist"; sourceTree = "<group>"; };
+		BE959AC21552D09C00CC995A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE959AC41552D09C00CC995A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE959AC61552D09C00CC995A /* May3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "May3-Prefix.pch"; sourceTree = "<group>"; };
+		BE959AC71552D09C00CC995A /* May3AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = May3AppDelegate.h; sourceTree = "<group>"; };
+		BE959AC81552D09D00CC995A /* May3AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = May3AppDelegate.m; sourceTree = "<group>"; };
+		BE959ACA1552D09D00CC995A /* May3ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = May3ViewController.h; sourceTree = "<group>"; };
+		BE959ACB1552D09D00CC995A /* May3ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = May3ViewController.m; sourceTree = "<group>"; };
+		BE959AD51552D0E900CC995A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BE959AD71552D4C500CC995A /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		BE959AD81552D4C500CC995A /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE959AB11552D09C00CC995A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE959AD61552D0EA00CC995A /* AVFoundation.framework in Frameworks */,
+				BE959AB91552D09C00CC995A /* UIKit.framework in Frameworks */,
+				BE959ABB1552D09C00CC995A /* Foundation.framework in Frameworks */,
+				BE959ABD1552D09C00CC995A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE959AA91552D09B00CC995A = {
+			isa = PBXGroup;
+			children = (
+				BE959ABE1552D09C00CC995A /* May3 */,
+				BE959AB71552D09C00CC995A /* Frameworks */,
+				BE959AB51552D09C00CC995A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE959AB51552D09C00CC995A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE959AB41552D09C00CC995A /* May3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE959AB71552D09C00CC995A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE959AD51552D0E900CC995A /* AVFoundation.framework */,
+				BE959AB81552D09C00CC995A /* UIKit.framework */,
+				BE959ABA1552D09C00CC995A /* Foundation.framework */,
+				BE959ABC1552D09C00CC995A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE959ABE1552D09C00CC995A /* May3 */ = {
+			isa = PBXGroup;
+			children = (
+				BE959AC71552D09C00CC995A /* May3AppDelegate.h */,
+				BE959AC81552D09D00CC995A /* May3AppDelegate.m */,
+				BE959ACA1552D09D00CC995A /* May3ViewController.h */,
+				BE959ACB1552D09D00CC995A /* May3ViewController.m */,
+				BE959AD71552D4C500CC995A /* View.h */,
+				BE959AD81552D4C500CC995A /* View.m */,
+				BE959ABF1552D09C00CC995A /* Supporting Files */,
+			);
+			path = May3;
+			sourceTree = "<group>";
+		};
+		BE959ABF1552D09C00CC995A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE53DF391552E8F500D7DA91 /* musette.mp3 */,
+				BE959AC01552D09C00CC995A /* May3-Info.plist */,
+				BE959AC11552D09C00CC995A /* InfoPlist.strings */,
+				BE959AC41552D09C00CC995A /* main.m */,
+				BE959AC61552D09C00CC995A /* May3-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE959AB31552D09C00CC995A /* May3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE959AD21552D09E00CC995A /* Build configuration list for PBXNativeTarget "May3" */;
+			buildPhases = (
+				BE959AB01552D09C00CC995A /* Sources */,
+				BE959AB11552D09C00CC995A /* Frameworks */,
+				BE959AB21552D09C00CC995A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = May3;
+			productName = May3;
+			productReference = BE959AB41552D09C00CC995A /* May3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE959AAB1552D09B00CC995A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = May3;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = BE959AAE1552D09B00CC995A /* Build configuration list for PBXProject "May3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BE959AA91552D09B00CC995A;
+			productRefGroup = BE959AB51552D09C00CC995A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE959AB31552D09C00CC995A /* May3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE959AB21552D09C00CC995A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE959AC31552D09C00CC995A /* InfoPlist.strings in Resources */,
+				BE53DF3A1552E8F500D7DA91 /* musette.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE959AB01552D09C00CC995A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE959AC51552D09C00CC995A /* main.m in Sources */,
+				BE959AC91552D09D00CC995A /* May3AppDelegate.m in Sources */,
+				BE959ACC1552D09D00CC995A /* May3ViewController.m in Sources */,
+				BE959AD91552D4C500CC995A /* View.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE959AC11552D09C00CC995A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE959AC21552D09C00CC995A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE959AD01552D09D00CC995A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE959AD11552D09E00CC995A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE959AD31552D09E00CC995A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "May3/May3-Prefix.pch";
+				INFOPLIST_FILE = "May3/May3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BE959AD41552D09E00CC995A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "May3/May3-Prefix.pch";
+				INFOPLIST_FILE = "May3/May3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE959AAE1552D09B00CC995A /* Build configuration list for PBXProject "May3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE959AD01552D09D00CC995A /* Debug */,
+				BE959AD11552D09E00CC995A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE959AD21552D09E00CC995A /* Build configuration list for PBXNativeTarget "May3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE959AD31552D09E00CC995A /* Debug */,
+				BE959AD41552D09E00CC995A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE959AAB1552D09B00CC995A /* Project object */;
+}
